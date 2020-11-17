@@ -20,5 +20,11 @@ namespace EntityFrameworkApiRelacional.Models
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-PPP09CP;Database=Livraria;User ID=sa;Password=Paradoxo22");
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Autor>()
+                .HasKey(a => new { a.AutorId });
+        }
     }
 }
