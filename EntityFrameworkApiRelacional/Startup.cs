@@ -32,7 +32,7 @@ namespace EntityFrameworkApiRelacional
             services.AddScoped<IEFWebApiRepository, EFWebApiRepository>();
 
             services.AddDbContext<DataLivrosContext>(options =>
-            options.UseSqlServer("Server=DESKTOP-PPP09CP;Database=Livraria;User ID=sa;Password=Paradoxo22"));
+            options.UseSqlServer("Server=DESKTOP-CBCKVV5;Database=Livraria;User ID=sa;Password=Paradoxo22"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

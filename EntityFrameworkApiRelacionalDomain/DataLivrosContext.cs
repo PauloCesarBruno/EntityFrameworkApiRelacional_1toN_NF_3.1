@@ -18,7 +18,7 @@ namespace EntityFrameworkApiRelacional.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-PPP09CP;Database=Livraria;User ID=sa;Password=Paradoxo22");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-CBCKVV5;Database=Livraria;User ID=sa;Password=Paradoxo22");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
